@@ -1,0 +1,47 @@
+/* Pseudo Element */
+
+p,h2 {
+    font-family:cursive;
+    color: cadetblue;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+p::first-line{
+    font-weight: bold;
+    color: blueviolet;
+}
+
+p::first-letter{
+    font-size: 50px;
+}
+
+/* Pseudo Claas */
+
+ul li{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+ul li:first-child{
+    background-color:lightsalmon;
+}
+ul li:last-child{
+    background-color: lightskyblue;
+}
+
+a:visited{
+    color:teal;
+}
+a:hover{
+    color: white;
+    background-color: teal;
+}
+
+a{
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+    width: 150px;
+    margin-bottom: 10px;
+}

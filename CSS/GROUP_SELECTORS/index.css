@@ -1,0 +1,55 @@
+/************************************
+
+(p) --> Tüm p etiketleri
+
+(div p) --> div içerisindeki tüm p etiketleri
+
+(div,p) --> Tüm div ve tüm p etiketleri
+
+(div + p) --> p etiketinden sonra gelen div etiketi
+
+************************************/
+
+
+
+/***********PARAGRAF YAZANLAR***********
+            
+p{
+    color: blueviolet;
+}
+*/
+
+/***********CONTAINER YAZANLAR***********
+
+.container{
+    color: burlywood;
+}
+*/
+
+/***********BOX YAZANLAR***********
+
+.box{
+    color: cornflowerblue;
+}
+*/
+
+/***********div > p OLANLAR***********
+
+div p{
+    color: darksalmon;
+}
+*/
+
+/***********div VE p OLANLAR***********
+
+div,p{
+    color: darksalmon;
+}
+*/
+
+/***********div DEN SONRA GELEN p***********
+
+div + p{
+    color: deeppink;
+}
+*/

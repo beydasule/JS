@@ -1,0 +1,51 @@
+h2[title="baslik1"]{
+    color: slateblue;
+    font-size: x-large;
+    font-family:cursive;
+}
+
+h2[title="baslik2"]{
+    color:darkcyan;
+    font-size: x-large;
+    font-family:cursive;
+}
+
+p[title="paragraf1"]{
+    color:chocolate;
+    font-size: small;
+    font-family:cursive;
+    font-style: italic;
+}
+
+p[title="paragraf2"]{
+    color:palevioletred;
+    font-size: small;
+    font-family:cursive;
+    font-style: italic;
+}
+
+a{
+    text-decoration: none;
+    font-style: italic;
+}
+
+a[target=_blank]{
+    color:cadetblue;
+}
+
+a.cerceve{
+    border: 1px solid;
+    border-color: coral;
+    width: 20px;
+    height: 10px;
+}
+
+input[type="text"]{
+    background-color: darkseagreen;
+    color: antiquewhite;
+}
+
+input[type="button"]{
+    background-color:midnightblue;
+    color:cornsilk
+}

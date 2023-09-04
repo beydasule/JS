@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIV KULLANIMI</title>
+
+    <style>
+        #ilk-prg {
+            color: blueviolet;
+            font-style: italic;
+            font-family: cursive;
+        }
+
+        .ilk-harf::first-letter{
+            font-size: 50px;
+        }
+
+        #son-prg{
+            color: cadetblue;
+            font-style: italic;
+            font-family: cursive;
+        }
+
+        p::first-letter{
+            font-size: 50px;
+            color: blueviolet;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div id="ilk-prg">
+        <h2>Lorem, ipsum dolor.</h2>
+        <ul>
+            <li>Lorem, ipsum.</li>
+            <li>Lorem, ipsum.</li>
+            <li>Lorem, ipsum.</li>
+            <li>Lorem, ipsum.</li>
+        </ul>
+        <p class="ilk-harf">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste dolor quis nulla quo unde consequuntur enim,
+            debitis recusandae fuga doloribus.</p>
+    </div>
+
+    <div id="son-prg">
+        <h2>Lorem, ipsum dolor.</h2>
+        <ul>
+            <li>Lorem, ipsum.</li>
+            <li>Lorem, ipsum.</li>
+            <li>Lorem, ipsum.</li>
+            <li>Lorem, ipsum.</li>
+        </ul>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste dolor quis nulla quo unde consequuntur enim,
+            debitis recusandae fuga doloribus.</p>
+    </div>
+
+</body>
+
+</html>
